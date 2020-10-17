@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\UnrealProjects\QuickStart\Managed\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="UnrealEngine.Framework">
+      <HintPath>F:\UE4Root\UnrealCLR\Source\Managed\Framework\bin\Release\UnrealEngine.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
